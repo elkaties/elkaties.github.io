@@ -1,0 +1,68 @@
+body {
+    background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p a {
+    color: hotpink;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px hotpink;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    background-color: white;
+    border: 1px lightpink;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border: 2px hotpink;
+    max-width: 90%;
+}
+
+figure {
+    margin: 10px auto;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: purple;
+}
+
+section {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightpink;
+    text-align: center;
+}
+
+progress {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+}
+
+
