@@ -1,0 +1,42 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+.header {
+    background-color: #800020;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #008000;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.section {
+    background-color: #fff8dc;
+    padding: 20px;
+    border: 2px solid #800020;
+}
+
+.section h2 {
+    color: #800020;
+    font-size: 22px;
+}
